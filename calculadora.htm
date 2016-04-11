@@ -13,6 +13,14 @@
           num.value = num.value*num.value;
         }
       }
+      function raiz(){
+        var num = document.getElementById("n1");
+        if (isNaN(num.value)){
+          num.value="Error";
+        }else{
+          num.value = Math.sqrt(num.value);
+        }
+      }
       function vaciar(){
         document.getElementById("n1").value="";
       }
